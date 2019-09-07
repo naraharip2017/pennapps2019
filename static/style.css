@@ -1,0 +1,104 @@
+#map {
+    height: 80%;
+    width: 90%;
+  }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('background.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  #login, #newUser, #orgSignUp, #volSignUp{
+    height: 70%;
+    width: 40%;
+    border-style: solid;
+    border-width: 2.5px;
+    font: 30px;
+    text-align: center; 
+    margin: auto;
+    background-color:hsla(214, 71%, 65%, 0.46);
+    color: hsla(214, 71%, 21%, 1);
+    border-radius: 10px;
+  }
+
+  #orgSignUp, #volSignUp{
+      overflow-y: scroll;
+  }
+
+  #title{
+        font-size: 50px;
+        margin: 20px;
+  }
+
+    .text {
+      color:  hsla(214, 71%, 21%, 1);
+      background-color: hsla(360, 0%, 95%, 1);
+      border: 1px solid hsla(214, 71%, 21%, 1);
+      border-radius: 5px;
+      width: 45%;
+        text-align: center;
+        height: 25px;
+        margin: 10px;
+  }
+
+  #usernameLogin{
+    position: relative;
+    
+  }
+
+  button{
+    background-color: hsla(48, 87%, 63%, 1);
+    color: hsla(214, 71%, 21%, 1);
+    border: 1px solid hsla(214, 71%, 21%, 1);
+    height: 25px;
+    width: 45%;
+    border-radius: 5px;
+  }
+
+  #loginButton{
+    margin: 15px;
+  }
+
+  #newUserButton{
+        background: none;
+        border: none;
+        padding: 0;
+        color: hsla(214, 71%, 21%, 1);
+        cursor: pointer;
+  }
+
+  input:focus::placeholder{
+    color:transparent;
+}
+
+.newUserChoice{
+    position: relative;
+    top: 35%;
+    margin: 15px;
+}
+
+#cancel, #volCancel
+{
+    background-color: hsla(360, 100%, 64%, 1);
+}
+
+.orgButton
+{
+    margin: 10px;
+}
+
+hr{
+    border-color: hsla(214, 71%, 21%, 0.75);
+}
+
+#usernameLogin{
+    margin-top: 10%;
+}
+  
